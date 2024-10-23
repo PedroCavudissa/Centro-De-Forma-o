@@ -6,3 +6,11 @@ function toggleMenu() {
         menu.style.display = 'block';
     }
 }
+function informacoes(){
+const info=document.getElementById('info')
+if (info.style.display === 'block') {
+    info.style.display = 'none';
+} else {
+    info.style.display = 'block';
+}
+}
