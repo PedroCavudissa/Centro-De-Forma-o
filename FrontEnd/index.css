@@ -34,6 +34,9 @@
     height: 45px;/*Tamanho do botão*/
    
 }
+a {color: white;
+    
+}
 
 .btn2 {
     position: absolute;
@@ -49,6 +52,7 @@
     height: 45px;/*Tamanho do botão*/
    
 }
+.btn 2 
 
 .btn3 {
     position: absolute;
