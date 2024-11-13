@@ -1,0 +1,274 @@
+#foto{
+    background-image: url("../Assets/Imagens/alunos.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+a{color: white;}
+#anuncio{text-align: center;size: 1000px;color: black;}
+#cabecalho{ background-color:#F25917;height: 100px;}
+.menu {
+    display: none;
+    position: absolute;
+    top: 95px;
+    right: 200px;
+    background-color: black;
+    width: 150px;
+    z-index: 1000;
+}
+.menu a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    
+}
+
+.btn {
+    position: absolute;
+    top: 310px;  /* Distância do topo */
+    left: 639px; /* Distância da esquerda */
+    padding: 10px 20px;
+    background-color: #020406;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 200px;/*Tamanho do botão*/
+    height: 50px;/*Tamanho do botão*/
+   
+}
+.btn1 {
+    position: absolute;
+    top: 35px;  /* Distância do topo */
+    left: 419px; /* Distância da esquerda */
+    padding: 10px 20px;
+    background-color: #020406;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 130px;/*Tamanho do botão*/
+    height: 45px;/*Tamanho do botão*/
+   
+}
+
+.btn2 {
+    position: absolute;
+    top: 35px;  /* Distância do topo */
+    left: 619px; /* Distância da esquerda */
+    padding: 10px 20px;
+    background-color: #020406;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 130px;/*Tamanho do botão*/
+    height: 45px;/*Tamanho do botão*/
+   
+}
+
+.btn3 {
+    position: absolute;
+    top: 35px;  /* Distância do topo */
+    left: 819px; /* Distância da esquerda */
+    padding: 10px 20px;
+    background-color: #020406;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 130px;/*Tamanho do botão*/
+    height: 45px;/*Tamanho do botão*/
+   
+}
+
+.btn-barras{background-color: black;color: white;height: 50px;width: 50px;
+    position: absolute;
+    top: 40px;  /* Distância do topo */
+    right: 280px; 
+}
+
+.foto1{background-image: url("../Assets/Imagens/ui.jpg");
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    width: 800px;
+    height: 350px;
+    }
+   
+.foto2{background-image: url("../Assets/Imagens/design.jpg");
+    position: absolute;
+    top: 640px;  /* Distância do topo */
+    left: 8px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 800px;
+    height: 350px;}
+
+#webI{background-image: url("../Assets/Imagens/web.jpg");
+    position: absolute;
+    top: 1100px;  /* Distância do topo */
+    left: 8px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 800px;
+    height: 350px;}
+    #pastelariaI{background-image: url("../Assets/Imagens/pastelaria.jpg");
+        position: absolute;
+        top: 1550px;  /* Distância do topo */
+        left: 8px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 800px;
+        height: 350px;}
+        #excel{background-image: url("../Assets/Imagens/excel.jpg");
+            position: absolute;
+            top: 2050px;  /* Distância do topo */
+            left: 20px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: left;
+            width: 840px;
+            height: 350px;}
+            #ui{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-size: 30px;}
+            #design{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-size: 30px;position: absolute;
+            top: 545px;
+        left:10px;}
+        #web{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-size: 30px;position: absolute;
+            top: 1000px}
+            #pastelaria{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-size: 30px;position: absolute;
+                top: 1450px}
+                #excell{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;font-size: 30px;position: absolute;
+                    top: 1920px}
+                    #descrUi{border: 2px solid rgb(7, 3, 3);background-color: gray;position: absolute;right: 10px;width: 650px;height: 347px;}
+                    #des{font-family: Arial, Helvetica, sans-serif;font-size: 25px;position: absolute;top: 15px;right: 10px; }
+                    #descrDesign{border: 2px solid rgb(7, 3, 3);background-color: gray;position: absolute;top: 640px;right: 10px;width: 650px;height: 347px;}
+                    #desDe{font-family: Arial, Helvetica, sans-serif;font-size: 25px;position: absolute;top: 50px;right: 10px; }
+                    #descrWeb{border: 2px solid rgb(7, 3, 3);background-color: gray;position: absolute;top: 1100px;right: 10px;width: 650px;height: 347px;}
+                    #desWeb{font-family: Arial, Helvetica, sans-serif;font-size: 20px;position: absolute;top: 5px;right: 10px; }
+                    #descrPaste{border: 2px solid rgb(7, 3, 3);background-color: gray;position: absolute;top: 1550px;right: 10px;width: 650px;height: 347px;}
+                    #desPaste{font-family: Arial, Helvetica, sans-serif;font-size: 20px;position: absolute;top: 5px;right: 10px; }
+                    #descrExc{border: 2px solid rgb(7, 3, 3);background-color: gray;position: absolute;top: 2050px;right: 10px;width: 650px;height: 347px;}
+                    #desExc{font-family: Arial, Helvetica, sans-serif;font-size: 20px;position: absolute;top: 50px;right: 10px; }
+                    #btnInscricao{background-color: #F25917;color: white;border-radius: 8px;position: absolute; top: 2500px;right: 730px;font-size: 25px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#rodapé{
+    position: absolute;
+top: 2700px;  /* Distância do topo */
+left: 9px;border:4px solid #020406;border-top-: 10px;background-color: #020406;height: 400px;width: 1460px;}
+#estrutura{position: absolute
+;top:10px;left: 2px;width: 680px;height: 338px;}
+#Mensagem{font-family: 'Arial', Times, Sans-serif;color: white;}
+
+#mes{position: absolute;top: 145px;}
+
+#texto{position: absolute;top: 175px;}
+
+#btn6{background-color: rgb(4, 4, 229);background-position: center;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;color: white;
+position: absolute;
+top: 270px;
+left: 68px;
+border-radius: 6px;
+
+}
+#Contactos{
+
+position: absolute;
+top: 2px;
+right: 88px;
+}
+
+#cont{font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;color: white;
+position: absolute;
+top: 140px;
+right: 450px;}
+#loca{font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;color: white;
+position: absolute;
+top: 25px;
+right: 440px;}
+#hor{font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;color: white;
+    position: absolute;
+    top: 260px;
+    right: 445px;}
+    #icon1{position: absolute;top: 45px;right: 575px;}
+    #locali{font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;color: white;
+        position: absolute;
+        top: 80px;
+        right: 410px;}
+        #icon2{position: absolute;top: 170px;right: 575px;}
+        #numero{font-family: Arial, Helvetica, sans-serif;font-size: 15px;color: white;
+            position: absolute;
+            top: 175px;
+            right: 400px;}
+            #icon3{position: absolute;top: 300px;right: 575px;}
+            #horario{font-family: Arial, Helvetica, sans-serif;font-size: 15px;color: white;
+                position: absolute;
+                top: 295px;
+                right: 400px;}
+                #icon4{position: absolute;top: 220px;right: 575px;}
+                #emails{font-family: Arial, Helvetica, sans-serif;font-size: 15px;color: white;
+                    position: absolute;
+                    top: 223px;
+                    right: 375px;}

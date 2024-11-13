@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cursos</title>
+    <meta author="Pedro Cavudissa" description="Programa de Centro de Formação">
+    <link  rel="stylesheet"  href="../css/cursos.css" >
+</head>
+<header id="cabecalho">
+    <img src="../Assets/Imagens/logo.jpg" alt="" width="250px" height="100px">
+    <button class="btn1"><big><a href="index.html">Início</a></big></button>
+    <button class="btn2"><big>Inscever-se</big></button>
+    <button class="btn3"><big>Contactos</big></button>
+    <button class="btn-barras" onclick="toggleMenu()">☰</button>
+    <div class="menu" id="menu">
+      <nav>
+     
+       <a href="#">Sobre</a><br>
+       <a href="#">Serviços</a><br>
+       <a href="#">Contato</a><br>
+      </nav> 
+     
+   </div>
+    <section>
+      
+     </header>
+<body>
+  
+    <div id="cursosNome">
+        <h2 id="ui">Ui/Ux Design</h2>
+      </div>
+        <div class="foto1" id="foto1">
+          <h2 id="design">Design Gráfico</h2>
+          <div class="foto2" id="foto2">
+           
+          </div>
+          <h2 id="web">Programação Web</h2>
+          <div id="webI"></div>
+          <h2 id="pastelaria">Pastelaria</h2>
+          <div id="pastelariaI"></div>
+          <h2 id="excell">Excel</h2>
+          <div id="excel"></div>
+          <div id="descricao">
+             <div id="descrUi">
+              <p id="des">Este curso proporciona-lhe
+                conhecimentos que te vão
+                catapultar
+                para um melhor entendimento
+                no que diz respeito a criação <br><br><br>
+                Preço:25.000kzs<br>
+                Vagas limitadas</p>
+             </div>
+             <div id="descrDesign">
+              <p id="desDe">Este curso proporciona-lhe
+                conhecimentos que te vão
+                catapultar
+                para um melhor entendimento
+                no que diz respeito a criação designes de qualidade <br><br><br>
+                Preço:25.000kzs<br>
+                Vagas limitadas</p>
+             </div>
+             <div id="descrWeb">
+              <p id="desWeb">O curso de Programação Web vai dar-lhe visão ampla sobre a
+                criação de web sites,bem como ajuda-lo a ter noção sobre
+                produção no mercado de trabalho,ganhar conhecimentos em
+                conteúdos como:PHP,HTML,CSS,JAVA SCRIPT,MYSQL.
+                Preço:25.000kzs
+                Vagas limitadas
+                Temos para si o curso de pastelaria, onde aprenderás sobre
+                como confessionar,fazer bolinhos,croquetes,bolachas,bem como,
+                aprender estratégias de marketing para adquirir clientes. <br><br><br>
+                
+                
+                Preço:25.000kzs<br>
+                Vagas limitadas</p>
+             </div>
+             <div id="descrPaste">
+              <p id="desPaste">Temos para si o curso de pastelaria, onde aprenderás sobre
+                como confessionar,fazer bolinhos,croquetes,bolachas,bem como,
+                aprender estratégias de marketing para adquirir clientes. <br><br>
+                Preço:10.000kzs</p>
+             </div>
+             <div id="descrExc">
+              <p id="desExc">Com este curso você vai
+                aprender a criar
+                planilhas,relatórios dinâmicos e
+                muito mais. <br><br>
+                Preço:10.000kzs
+                Vagas limitadas</p>
+             </div>
+            <button id="btnInscricao"  > <a href="inscricao.html">Inscever-se</a></button>
+          </div >
+          <script src="../JavaScript/index.js"></script>
+</body>
+<footer id="rodapé">
+    <fieldset id="estrutura">
+      <form action="formulario">
+        <h2 id="Mensagens"><font color="#fff">Deixe-nos uma Mensagem</font></h2>
+        
+        <label for="nome"><font color="#fff">Nome</font></label>
+        <input type="text" name="nome" id="nome" required placeholder="Insira aqui o seu nome">
+  
+        <label for="contacto"><font color="#fff">Contacto</font></label>
+        <input type="tel" name="contacto" id="contacto" required placeholder="Insira aqui o seu contacto">
+        <br><br>
+        <label for="email"><font color="#fff">Email</font></label>
+        <input type="email" name="email" id="email" required placeholder="exemplo@gmail.com"><br> <br>
+  
+        <label for="mensagem" id="mes"><font color="#fff">Mensagem</font></label>
+        <textarea name="texto" id="texto" required rows="5" ></textarea>
+        <button id="btn6"   onclick="enviarMensagem()">Enviar Mensagem</button>
+      </form>
+     </fieldset>
+    
+  <h2 id="cont">Contactos</h2>
+  <h2 id="loca">Localização</h2>
+  <h2 id="hor">Horárioss</h2>
+  <h2 id="locali">Sapú 2, Jacinto Tchipa</h2>
+  <h2 id="numero">925213959/928439509</h2>
+  <h2 id="horario">Segunda-Sexta, 8h-16h <br>
+    Sábado 8h-14h</h2>
+    <h2 id="emails">centrodioped@gmail.com </h2>
+    
+  <section id="image">
+  <div id="icon1">
+    <img src="../Assets/Imagens/location.jpg" alt="" width="70px" height="70px">
+    
+  </div>
+  <div id="icon2">
+  <img src="../Assets/Imagens/fone.png" alt="" width="50px" height="50px">
+  </div>
+  <div id="icon4">
+    <img src="../Assets/Imagens/email.jpg" alt="" width="50px" height="50px">
+    </div>
+  <div id="icon3">
+    <img src="../Assets/Imagens/relogio.jpg" alt="" width="50px" height="50px">
+  </div>
+  </section>
+     
+  </footer>
+</html>

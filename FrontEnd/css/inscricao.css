@@ -1,0 +1,75 @@
+
+#corpo{position: absolute;top: 65px;left:500px ;}
+#imagem{position: absolute;right:600px;top: 250px;}
+.nome{background-color: rgb(97, 158, 250);color: #020406;height: 30px;width: 335px;top: 10px;}
+#preco{enable-background: none;background-color: rgb(97, 158, 250);color: #020406;height: 30px;width: 335px;}
+#btnIns{background-color: #020406;color: white;border-radius: 10px;position: absolute;right:80px;top: 350px; width: 200px;height:40px ;}
+    #bt{background-color: #020406;color: white;border-radius: 10px;position: absolute;right:20px;top: 100px; width: 150px;height: 40px;}
+    #bt1{background-color: #020406;color: white;border-radius: 10px;position: absolute;right:175px;top: 100px; width: 150px;height: 40px;}
+#rodapé{
+    position: absolute;
+top: 700px;  /* Distância do topo */
+left: 9px;border:4px solid #020406;border-top-: 10px;background-color: #020406;height: 400px;width: 1460px;}
+#estrutura{position: absolute
+;top:10px;left: 2px;width: 680px;height: 338px;}
+a {color: white;
+    
+}
+#Mensagem{font-family: 'Arial', Times, Sans-serif;color: white;}
+
+#mes{position: absolute;top: 145px;}
+
+#texto{position: absolute;top: 175px;}
+
+#btn6{background-color: rgb(4, 4, 229);background-position: center;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12px;color: white;
+position: absolute;
+top: 270px;
+left: 68px;
+border-radius: 6px;
+
+}
+#Contactos{
+
+position: absolute;
+top: 2px;
+right: 88px;
+}
+
+#cont{font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;color: white;
+position: absolute;
+top: 140px;
+right: 450px;}
+#loca{font-family: Arial, Helvetica, sans-serif;
+font-size: 20px;color: white;
+position: absolute;
+top: 25px;
+right: 440px;}
+#hor{font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;color: white;
+    position: absolute;
+    top: 260px;
+    right: 445px;}
+    #icon1{position: absolute;top: 45px;right: 575px;}
+    #locali{font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;color: white;
+        position: absolute;
+        top: 80px;
+        right: 410px;}
+        #icon2{position: absolute;top: 170px;right: 575px;}
+        #numero{font-family: Arial, Helvetica, sans-serif;font-size: 15px;color: white;
+            position: absolute;
+            top: 175px;
+            right: 400px;}
+            #icon3{position: absolute;top: 300px;right: 575px;}
+            #horario{font-family: Arial, Helvetica, sans-serif;font-size: 15px;color: white;
+                position: absolute;
+                top: 295px;
+                right: 400px;}
+                #icon4{position: absolute;top: 220px;right: 575px;}
+                #emails{font-family: Arial, Helvetica, sans-serif;font-size: 15px;color: white;
+                    position: absolute;
+                    top: 223px;
+                    right: 375px;}
